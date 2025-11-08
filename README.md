@@ -7,7 +7,7 @@ Generate SQL DDL from a Prisma schema using Prisma DMMF. Supports MySQL, MariaDB
 Local project (as a dev tool):
 
 ```bash
-npm install -D prisma-ddl-generator
+npm i @qubitabhay/prisma-ddl-generator
 ```
 
 Or clone this repo and use via `npm link`:
@@ -19,7 +19,7 @@ npm link
 ## CLI Usage
 
 ```bash
-ddlgen --dialect <mysql|postgres|sqlite|mariadb> --schema ./schema.prisma --out output.sql
+npx ddlgen --dialect <mysql|postgres|sqlite|mariadb> --schema ./schema.prisma --out output.sql
 ```
 
 - `--dialect` / `-d`: Target SQL dialect (default: mysql)
@@ -30,13 +30,13 @@ Examples:
 
 ```bash
 # MySQL (MariaDB uses the same output)
-ddlgen -d mysql -s schema.prisma -o schema.mysql.sql
+npx ddlgen -d mysql -s schema.prisma -o schema.mysql.sql
 
 # PostgreSQL
-ddlgen -d postgres -s schema.prisma -o schema.postgres.sql
+npx ddlgen -d postgres -s schema.prisma -o schema.postgres.sql
 
 # SQLite
-ddlgen -d sqlite -s schema.prisma -o schema.sqlite.sql
+npx ddlgen -d sqlite -s schema.prisma -o schema.sqlite.sql
 ```
 
 ## Library Usage
