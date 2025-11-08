@@ -1,6 +1,6 @@
 {
   "name": "@qubitabhay/prisma-ddl-generator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package generates SQL DDL statements from a Prisma schema for various SQL dialects, including MySQL, PostgreSQL, SQLite, and MariaDB.",
   "type": "module",
   "main": "index.js",
