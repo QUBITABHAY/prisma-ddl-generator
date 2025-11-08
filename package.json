@@ -37,5 +37,13 @@
   "files": [
     "index.js",
     "bin/"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QUBITABHAY/prisma-ddl-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QUBITABHAY/prisma-ddl-generator/issues"
+  },
+  "homepage": "https://github.com/QUBITABHAY/prisma-ddl-generator#readme"
 }
