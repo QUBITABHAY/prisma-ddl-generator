@@ -1,33 +1,41 @@
 {
   "name": "@qubitabhay/prisma-ddl-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This package generates SQL DDL statements from a Prisma schema for various SQL dialects, including MySQL, PostgreSQL, SQLite, and MariaDB.",
   "type": "module",
-    "main": "index.js",
-    "exports": {
-      ".": "./index.js"
-    },
-    "bin": {
-      "ddlgen": "./bin/ddlgen.js"
-    },
-    "scripts": {
-      "start": "node index.js",
-      "cli": "node bin/ddlgen.js"
-    },
-    "keywords": ["prisma", "sql", "ddl", "mysql", "postgres", "sqlite", "mariadb"],
-    "author": "QUBITABHAY",
-    "license": "MIT",
-    "publishConfig": {
-      "access": "public"
-    },
-    "engines": {
-      "node": ">=18"
-    },
-    "dependencies": {
-      "@prisma/internals": "^6.19.0"
-    },
-    "files": [
-      "index.js",
-      "bin/"
-    ]
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "ddlgen": "./bin/ddlgen.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node bin/ddlgen.js"
+  },
+  "keywords": [
+    "prisma",
+    "sql",
+    "ddl",
+    "mysql",
+    "postgres",
+    "sqlite",
+    "mariadb"
+  ],
+  "author": "QUBITABHAY",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@prisma/internals": "^6.19.0"
+  },
+  "files": [
+    "index.js",
+    "bin/"
+  ]
 }
